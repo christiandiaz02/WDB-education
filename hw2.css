@@ -47,26 +47,44 @@
   }
   
   .threevert {
-    height: 33.33333333333333%;
+    height: 33.33333333333333333333333%;
   }
 
   .ninevert {
-      height: 11%;
-      width: 60%;
-      float:right;
+      height: 11.11111111111%;
   }
 
-  .ninevertsmall {
-    height: 11%;
-    width:40%;
+  .square {
+    position: relative;
+    height:55.55555555555555%;
+    width:34%;
+    bottom:500px;
+    z-index:1;
   }
-  
+
+  .horizcross {
+    position: relative;
+    height:11.1111111111111%;
+    width:34%;
+    bottom:233.3px;
+    z-index: 2;
+  }
+
+  .vertcross {
+    position: relative;
+    height:55.55555555%;
+    width:7%;
+    z-index: 3;
+    bottom:333px;
+    left: 65px;
+  }
+
   .threehoriz {
     width: 33.33333333333333%;
   }
 
   .sixvert {
-    height: 16.6666666666666%
+    height: 16.66666666666666666666666666666666%
   }
   
   .skinny {
@@ -77,12 +95,6 @@
     height: 30%;
   }
 
-  .square {
-    height: 24.8%;
-    width:26%;
-    position: absolute;
-    z-index:4;
-  }
   
   .circle {
     border-radius: 50%;
@@ -93,28 +105,11 @@
     top: 50px;
   }
 
-  .greekcrosshoriz {
-    position:absolute;
-    margin: 10.5%;
-    left: 5px;
-    width: 26%;
-    height: 5%;
-    z-index: 8;
-  }
-
-  .greekcrossvert {
-    position:absolute;
-    margin: 10.5%;
-    margin-top: 0%;
-    width: 5%;
-    height: 26%;
-    z-index: 8;
-  }
   
   /* Colors/ Feel free to add your own! */
   
   .red {
-    background-color: red;
+    background-color: #D22730;
   }
   
   .orange {
@@ -122,19 +117,19 @@
   }
   
   .yellow {
-    background-color: yellow;
+    background-color: #FCD116;
   }
   
   .green {
-    background-color: green;
+    background-color: #006341;
   }
   
   .blue {
-    background-color: blue;
+    background-color: #002B7F;
   }
   
-  .lightblue {
-    background-color: lightblue;
+  .thaiblue {
+    background-color: #2d2a4a;
   }
   
   .purple {
@@ -145,12 +140,16 @@
     background-color: #fff;
   }
 
+  .greekblue {
+    background-color: #0d5eaf;
+  }
+
   .mexicowhite {
       background-color: white;
       background:url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/245px-Coat_of_arms_of_Mexico.svg.png") center no-repeat white;
       background-size: 80%
   }
 
-  .skyblue {
-      background-color:rgb(0, 149, 255);
+  .luxembourgblue {
+      background-color: #00A3E0;
   }
